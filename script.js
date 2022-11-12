@@ -44,5 +44,3 @@ cell.forEach( e => e.addEventListener('mouseenter',changeColor ))
 function changeColor(e) {
     e.target.style.backgroundColor = "green"
 }
-
-//window.onload = createGrid(16)
